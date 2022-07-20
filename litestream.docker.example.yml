@@ -1,0 +1,7 @@
+dbs:
+  - path: /directus/database/data.db
+    replicas:
+      - url: s3://<bucket-name>/data.db
+        region: ap-northeast-1
+        access-key-id: foo
+        secret-access-key: bar
